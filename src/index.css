@@ -1,0 +1,307 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  background: #020617;
+  color: #f8fafc;
+}
+
+.dashboard {
+  min-height: 100vh;
+  padding: 35px;
+}
+
+
+/* Main Title */
+
+h1 {
+  text-align: center;
+  color: #22d3ee;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 40px;
+}
+
+
+/* Cards */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+
+.card {
+  background: #0f172a;
+  border: 1px solid #1e3a8a;
+  padding: 25px;
+  border-radius: 18px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(34,211,238,0.15);
+}
+
+
+.card h2 {
+  color: #cbd5e1;
+  font-size: 18px;
+}
+
+
+.card p {
+  color: #22d3ee;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+
+
+/* Icon Style */
+
+.icon {
+  width: 55px;
+  height: 55px;
+  margin: auto;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+}
+
+
+
+/* Common Sections */
+
+.status,
+.tracking,
+.alerts {
+
+  margin-top: 30px;
+  background: #0f172a;
+  border: 1px solid #1e3a8a;
+  border-radius: 18px;
+  padding: 25px;
+  box-shadow: 0 0 20px rgba(34,211,238,0.12);
+
+}
+
+
+.status h2,
+.tracking h2,
+.alerts h2 {
+  color: #38bdf8;
+}
+
+
+
+.status h3 {
+  color: #22c55e;
+  font-size: 24px;
+}
+
+
+
+.status p {
+  color: #cbd5e1;
+}
+
+
+
+/* Tracking Flow */
+
+.tracking p {
+
+  background: #172554;
+  color: #f8fafc;
+  padding: 12px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+
+}
+
+
+/* Alerts */
+
+.alerts li {
+
+  color: #fca5a5;
+  margin: 15px;
+  font-weight: 600;
+
+}
+.custom-icon {
+  width: 65px;
+  height: 65px;
+  margin: auto;
+  border-radius: 18px;
+  background: linear-gradient(135deg,#0891b2,#1e3a8a);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+  color: white;
+  box-shadow: 0 0 20px rgba(34,211,238,0.5);
+}
+
+.lock {
+  background: linear-gradient(135deg,#16a34a,#065f46);
+}
+
+.user {
+  background: linear-gradient(135deg,#9333ea,#4c1d95);
+}
+
+.alert {
+  background: linear-gradient(135deg,#ef4444,#7f1d1d);
+}
+.analytics {
+  margin-top: 30px;
+  background: #0f172a;
+  border: 1px solid #1e3a8a;
+  border-radius: 18px;
+  padding: 25px;
+  box-shadow: 0 0 20px rgba(34,211,238,0.15);
+}
+
+.analytics h2 {
+  color: #38bdf8;
+}
+
+
+.progress-box > div {
+  margin: 25px 0;
+}
+
+.progress-box h3 {
+  color: #e2e8f0;
+}
+
+
+.bar {
+  width: 100%;
+  height: 12px;
+  background: #1e293b;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+.bar span {
+  display: block;
+  height: 100%;
+  background: linear-gradient(90deg,#22d3ee,#2563eb);
+  border-radius: 10px;
+}
+
+
+.progress-box p {
+  color: #22c55e;
+  font-weight: bold;
+}
+.login-page {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #020617;
+}
+
+
+.login-card {
+
+  width: 420px;
+  padding: 40px;
+  text-align: center;
+
+  background: rgba(15,23,42,0.9);
+  border-radius: 25px;
+
+  border: 1px solid #38bdf8;
+
+  box-shadow:
+  0 0 30px rgba(56,189,248,0.4);
+
+}
+
+
+.security-logo {
+
+  font-size: 60px;
+  margin-bottom: 15px;
+
+}
+
+
+.login-card h1 {
+
+  color: #22d3ee;
+  font-size: 28px;
+
+}
+
+
+.login-card p {
+
+  color: #cbd5e1;
+  margin-bottom: 25px;
+
+}
+
+
+.login-card input,
+.login-card select {
+
+  width: 90%;
+  padding: 14px;
+  margin: 10px;
+
+  border-radius: 12px;
+  border: none;
+
+  background: #1e293b;
+  color: white;
+
+  font-size: 15px;
+
+}
+
+
+.login-card button {
+
+  width: 95%;
+  padding: 15px;
+
+  margin-top: 20px;
+
+  border-radius: 12px;
+  border: none;
+
+  background: linear-gradient(
+    90deg,
+    #06b6d4,
+    #2563eb
+  );
+
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+
+  cursor: pointer;
+
+}
+
+
+.security-status {
+
+  margin-top: 20px;
+  color: #22c55e;
+  font-size: 14px;
+
+}
+.welcome {
+  text-align: center;
+  color: #38bdf8;
+  margin-bottom: 25px;
+  font-size: 24px;
+}
